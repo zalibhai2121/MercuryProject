@@ -26,16 +26,14 @@
                                             <rect key="frame" x="0.0" y="0.0" width="394" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6K6-2a-Ko5">
-                                                    <rect key="frame" x="53" y="11" width="42" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="en8-Ud-wlB">
+                                                    <rect key="frame" x="257" y="11" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="en8-Ud-wlB">
-                                                    <rect key="frame" x="257" y="11" width="42" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6K6-2a-Ko5">
+                                                    <rect key="frame" x="53" y="11" width="42" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -46,11 +44,16 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="DOt-Yv-pQ3" secondAttribute="bottom" constant="-43" id="9YJ-Il-C0a"/>
-                                            <constraint firstItem="DOt-Yv-pQ3" firstAttribute="centerY" secondItem="oQa-tO-yin" secondAttribute="centerY" id="ZJi-Z9-5qs"/>
-                                            <constraint firstItem="DOt-Yv-pQ3" firstAttribute="centerX" secondItem="oQa-tO-yin" secondAttribute="centerX" id="iLe-KG-93c"/>
-                                            <constraint firstItem="DOt-Yv-pQ3" firstAttribute="top" secondItem="oQa-tO-yin" secondAttribute="top" constant="-43" id="rr5-ck-gbd"/>
-                                            <constraint firstItem="DOt-Yv-pQ3" firstAttribute="leading" secondItem="oQa-tO-yin" secondAttribute="leading" constant="59" id="xio-9y-aRs"/>
+                                            <constraint firstItem="DOt-Yv-pQ3" firstAttribute="top" secondItem="oQa-tO-yin" secondAttribute="top" constant="-43" id="5JS-wm-mVO"/>
+                                            <constraint firstItem="DOt-Yv-pQ3" firstAttribute="centerY" secondItem="oQa-tO-yin" secondAttribute="centerY" id="BvQ-s7-wNH"/>
+                                            <constraint firstItem="6K6-2a-Ko5" firstAttribute="leading" secondItem="oQa-tO-yin" secondAttribute="leading" constant="53" id="HEE-49-Yh6"/>
+                                            <constraint firstAttribute="bottom" secondItem="en8-Ud-wlB" secondAttribute="bottom" constant="11.5" id="R1X-KA-BcX"/>
+                                            <constraint firstAttribute="bottom" secondItem="DOt-Yv-pQ3" secondAttribute="bottom" constant="-43" id="YJK-Hv-Mtq"/>
+                                            <constraint firstItem="DOt-Yv-pQ3" firstAttribute="centerX" secondItem="oQa-tO-yin" secondAttribute="centerX" id="gMu-RT-io8"/>
+                                            <constraint firstAttribute="trailing" secondItem="DOt-Yv-pQ3" secondAttribute="trailing" constant="59" id="h3X-wZ-fpx"/>
+                                            <constraint firstItem="DOt-Yv-pQ3" firstAttribute="leading" secondItem="oQa-tO-yin" secondAttribute="leading" constant="59" id="i5g-Vj-Uhe"/>
+                                            <constraint firstAttribute="trailing" secondItem="en8-Ud-wlB" secondAttribute="trailing" constant="95" id="wPb-An-W1c"/>
+                                            <constraint firstAttribute="trailing" secondItem="6K6-2a-Ko5" secondAttribute="trailing" constant="299" id="ybg-Lf-2B4"/>
                                         </constraints>
                                         <connections>
                                             <outlet property="mercuryImage" destination="DOt-Yv-pQ3" id="zyb-hc-p5r"/>
