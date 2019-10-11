@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
     @IBOutlet weak var tableView: UITableView!
     
     let urlString = "https://raw.githubusercontent.com/rmirabelli/mercuryserver/master/mercury.json"
